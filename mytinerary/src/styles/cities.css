@@ -1,0 +1,16 @@
+.cities{
+    background-image: url('../assets/citie.jpg');
+    background-size: cover;
+    border-bottom: black 2px solid;
+  box-shadow: black 0px 0px 4px;
+}
+
+.most h2{
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    align-items: center;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 3em;
+    
+}

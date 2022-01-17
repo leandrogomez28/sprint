@@ -1,0 +1,27 @@
+.info{
+    margin-top: 20vh;
+    /* background-image: url('../assets/buenosaires.jpg'); */
+    background-color: rgba(0, 0, 0, 0.514);
+    
+    /* background-size: cover; */
+    color: white;
+    flex-direction: column;
+    
+}
+.cities{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 40vw;
+}
+.cities h1{
+    color: rgb(255, 255, 255);
+}
+.citie{
+
+    margin-top: 20vh;
+}
+.list-group{
+    display: flex;
+    flex-direction: row;
+}

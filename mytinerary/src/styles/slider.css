@@ -1,0 +1,18 @@
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-caption h5{
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    font-size: 2em !important;
+    text-shadow: 0 0 9px white;
+    font-weight: 500;
+    color: #000000;
+}
+.carousel-caption p{
+    font-size: 1em;
+    text-shadow: 0 0 9px rgb(0, 0, 0);
+    font-weight: 500;
+    color: #ffffff;
+}
