@@ -12,10 +12,15 @@ function Cities() {
             </div>
 
             <Search />
-            <div class="form-check form-switch d-flex justify-content-center mt-5">
-                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" />
-                <label class="form-check-label" for="flexSwitchCheckChecked">Cities</label>
-            </div>
+
+           <div>
+                <input class="checkbox" id="checkbox1" type="checkbox" />
+                <label for="checkbox1" class="checkbox-label">
+                    <span class="on">Continents</span>
+                    <span class="off">Cities</span>
+                </label>
+                
+           </div>
 
             <div className="most">
                 <h2>Most Visited</h2>
