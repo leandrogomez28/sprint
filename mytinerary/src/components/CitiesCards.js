@@ -26,7 +26,7 @@ function CitiesCards() {
         }
     };
     return (
-        <div className="row col-12 justify-content-center" id="card">
+        <div className="d-flex col-12 justify-content-center " id="card">
 
             <Carousel responsive={responsive} draggable={true} className="d-flex col-10 align-items-center justify-content-space-around">
 

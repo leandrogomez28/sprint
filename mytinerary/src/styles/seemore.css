@@ -8,12 +8,7 @@
     flex-direction: column;
     
 }
-.cities{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 40vw;
-}
+
 .cities h1{
     color: rgb(255, 255, 255);
 }

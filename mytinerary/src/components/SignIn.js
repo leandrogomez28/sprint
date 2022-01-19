@@ -24,28 +24,28 @@ function SignIn() {
 					</div>
 					<div className="form">
 						<form>
-							<div class="form-group">
-								<div class="input-group">
-									<div class="input-group-prepend">
-										<span class="input-group-text">
-											<span class="fa fa-user"><FaUserAlt /></span>
+							<div className="form-group">
+								<div className="input-group">
+									<div className="input-group-prepend">
+										<span className="input-group-text">
+											<span className="fa fa-user"><FaUserAlt /></span>
 										</span>
 									</div>
-									<input type="text" class="form-control" name="username" placeholder="Username" required="required" />
+									<input type="text" className="form-control" name="username" placeholder="Username" required="required" />
 								</div>
 							</div>
-							<div class="form-group">
-								<div class="input-group">
-									<div class="input-group-prepend">
-										<span class="input-group-text">
-											<span class="fa fa-lock"><FaKey /></span>
+							<div className="form-group">
+								<div className="input-group">
+									<div className="input-group-prepend">
+										<span className="input-group-text">
+											<span className="fa fa-lock"><FaKey /></span>
 										</span>
 									</div>
-									<input type="text" class="form-control" name="password" placeholder="Password" required="required" />
+									<input type="text" className="form-control" name="password" placeholder="Password" required="required" />
 								</div>
 							</div>
-							<div class="form-group remember">
-								<label class="form-check-label"><input type="checkbox" required="required" />Remember Me</label>
+							<div className="form-group remember">
+								<label className="form-check-label"><input type="checkbox" required="required" />Remember Me</label>
 							</div>
 							
 							<div className="form-group d-flex justify-content-center ">

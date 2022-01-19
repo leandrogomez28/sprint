@@ -3,7 +3,13 @@
     background-size: cover;
     border-bottom: black 2px solid;
   box-shadow: black 0px 0px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 45vw;
 }
+  
+
 
 .most h2{
     color: white;
@@ -28,7 +34,7 @@
   margin: 50px auto;
   position: relative;
   box-shadow: 0 0 0 2px #dddddd;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 
@@ -56,10 +62,9 @@
   z-index: 0;
   left: 0;
   opacity: 1;
-  min-width: 300px;
   line-height: 50px;
   opacity: 0;
-  color: #2a8129;
+  color: #13bf11;
   text-shadow: black 0 0 10px;
   font-weight: 700;
 }
@@ -74,7 +79,7 @@
   right: 100px;
   text-align: right;
   opacity: 1;
-  min-width: 300px;
+ 
   line-height: 50px;
   opacity: 1;
   color: #ffffff;
@@ -83,20 +88,10 @@
 }
 
 .checkbox:checked + .checkbox-label .on {
-  left: 100px;
+  left: 85px;
   opacity: 1;
 }
-.checkbox-label .on {
-  display: block;
-  position: absolute;
-  z-index: 0;
-  left: 0;
-  opacity: 1;
-  min-width: 300px;
-  line-height: 50px;
-  opacity: 0;
-  color: #13bf11;
-}
+
 
 .checkbox:checked + .checkbox-label .off {
   right: 0px;

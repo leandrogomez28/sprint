@@ -20,17 +20,11 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-
-
        <Route path='/' element= {<Home />} />
        <Route path='/cities' element= {<Cities />} />
        <Route path='/cities/info' element= {<Info />} />
        <Route path='/sign' element= {<Sign/>} />
        <Route path='/signup' element= {<SignUp/>} />
-        
-
-
-
       </Routes>
       <Footer />
 

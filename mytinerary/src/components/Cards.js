@@ -7,7 +7,7 @@ import { Link as LinkRouter } from 'react-router-dom';
 
 function Cards() {
     return (
-       <div className="row justify-content-center">
+       <div className="d-flex justify-content-center">
             <div className="card-citie col-10 mt-4">
                 <div className="card " style={{ width: "18rem" }}>
                     <img src={Imgcard} className="w-100" />
