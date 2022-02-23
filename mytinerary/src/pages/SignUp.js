@@ -63,7 +63,7 @@ function SignUp() {
 						<button type="submit" className="btn btn-primary btn-lg">Sign Up</button>
 					</div>
 				</form>
-				<div className="text-center">Already have an account?<LinkRouter to='/sign'><a href="#">Sign In</a></LinkRouter></div>
+				<div className="text-center">Already have an account?<LinkRouter to='/sign'>Sign In</LinkRouter></div>
 			</div>
 		</div>
 

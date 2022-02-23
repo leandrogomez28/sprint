@@ -14,12 +14,11 @@ function Footer() {
                     <div className="col-md-12 text-center">
                         <h2 className="footer-heading"><a href="#" className="logo">mytinerary</a></h2>
                         <p className="menu">
-                            <LinkRouter to='/'>
-                                <a href="#">Home</a>
-                            </LinkRouter>
-                           <LinkRouter to='/Cities'>
-                                <a href="#">Cities</a>
-                           </LinkRouter>
+                           
+                                <LinkRouter to='/'>Home </LinkRouter>
+                           
+                           <LinkRouter to='/Cities'>Cities</LinkRouter>
+                           
                             
                         </p>
                         <ul className="ftco-footer-social p-0">

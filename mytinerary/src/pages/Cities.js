@@ -5,6 +5,7 @@ import Search from '../components/Search';
 
 
 function Cities() {
+    
     return (
         <div className="justify-content-center">
             <div className="cities">
@@ -15,7 +16,7 @@ function Cities() {
 
            <div className="d-flex col ">
                 <input className="checkbox" id="checkbox1" type="checkbox" />
-                <label for="checkbox1" className="checkbox-label">
+                <label htmlFor="checkbox1" className="checkbox-label">
                     <span className="on">Continents</span>
                     <span className="off">Cities</span>
                 </label>

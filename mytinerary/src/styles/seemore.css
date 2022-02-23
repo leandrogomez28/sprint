@@ -1,22 +1,80 @@
-.info{
-    margin-top: 20vh;
-    /* background-image: url('../assets/buenosaires.jpg'); */
-    background-color: rgba(0, 0, 0, 0.514);
-    
-    /* background-size: cover; */
-    color: white;
+.header-city{
+    background-color: rgba(0, 0, 0, 0.719);
+    height: 30em;
+    display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     
+
 }
 
-.cities h1{
-    color: rgb(255, 255, 255);
+.header-city h1{
+    color: aliceblue;
+    text-align: center;
 }
-.citie{
 
-    margin-top: 20vh;
-}
-.list-group{
+.information{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 2em;
+
 }
+
+.information h4{
+  position: relative;
+  z-index: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(255, 255, 255, 0.24); */
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px rgba(73, 80, 77, 0.75);
+    color: white;
+    text-shadow: 2px 2px 3px black;
+   font-weight: 600;
+
+}
+.information img{
+  position: absolute;
+  width: 9em;
+;
+}
+
+
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+  

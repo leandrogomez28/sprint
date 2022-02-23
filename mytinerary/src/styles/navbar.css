@@ -36,7 +36,7 @@
    box-shadow: 0px 1px 24px 3px rgba(0,0,0,0.75);
    -webkit-box-shadow: 0px 1px 24px 3px rgba(0,0,0,0.75);
    -moz-box-shadow: 0px 1px 24px 3px rgba(0,0,0,0.75);
-   transform: rotate(360deg) scale(1.1) ;
+   transform: rotateY(360deg) scale(1.1) ;
    -webkit-transform: rotate(360deg) scale(1.1) ;
    -moz-transform: rotate(360deg) scale(1.1) ;
    border-radius: 10px;

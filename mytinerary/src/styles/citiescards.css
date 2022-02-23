@@ -8,10 +8,17 @@
     justify-content: space-around;
    
 }
-.card-title{
-  color: rgb(255, 255, 255);
+
+.card-body h6{
+  color: rgb(47, 161, 118);
   text-shadow: rgb(0, 0, 0) 0 0 5px;
-  font-size: 1.5em;
+}
+.card-title{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0 0 2px;
+  font-size: 2em;
+  font-weight: 700;
 }
 .card-body{
     /* background-color: rgba(255, 255, 255, 0.377); */
@@ -20,7 +27,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 9em;
+    top: 4em;
     left: 13px;
     transition:.4s;
     color: rgba(255, 255, 255, 0);
@@ -39,7 +46,10 @@
 }
 
 .card a{
-  background-color: rgba(10, 10, 10, 0.39);
+  background-color: rgba(10, 10, 10, 0);
+  position: absolute;
+  top: -1em;
+  border: none;
 }
 .react-multi-carousel-list{
     padding: 10px;

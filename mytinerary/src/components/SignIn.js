@@ -55,7 +55,7 @@ function SignIn() {
 					</div>
 					<div className="card-footer">
 						<div className="d-flex justify-content-center links">
-							Don't have an account?<LinkRouter to='/signup'><a href="#">Sign Up</a></LinkRouter>
+							Don't have an account?<LinkRouter to='/signup'>Sign Up</LinkRouter>
 						</div>
 						<div className="d-flex justify-content-center">
 							<a href="#">Forgot your password?</a>

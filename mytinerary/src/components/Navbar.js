@@ -9,11 +9,11 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-sm navbar-dark fixed-top bg-dark bg-gradient bg-opacity-75">
             <div className="container-fluid">
-                <LinkRouter to='/'>
-                    <a className="navbar-brand me-auto align-items-center" href="#">
+                
+                    < LinkRouter to='/' className="navbar-brand me-auto align-items-center" >
                         <img src={Logo} alt="" width="40" height="35" className="d-inline-block align-text-top" />
-                    </a>
-                </LinkRouter>
+                    </LinkRouter>
+                
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -22,18 +22,18 @@ function Navbar() {
                 <div className="collapse navbar-collapse " id="navbarSupportedContent">
                     <div className="navbar-nav align-items-center ">
 
-                        <LinkRouter to='/'>
+                        
                             <div className="nav-item ">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <LinkRouter to='/' className="nav-link active" aria-current="page" href="#">Home</LinkRouter>
                             </div>
-                        </LinkRouter>
+                        
                     </div>
                     <div className="navbar-nav m-auto align-items-center ">
-                        <LinkRouter to='/cities'>
+                        
                             <div className="nav-item ">
-                                <a className="nav-link active" aria-current="page" href="#">Cities</a>
+                                <LinkRouter to='/cities' className="nav-link active" aria-current="page" href="#">Cities</LinkRouter>
                             </div>
-                        </LinkRouter>
+                        
                     </div>
                     <div className='dropdownMayor d-flex justify-content-flex-end'>
                         <div className="dropdown d-flex me-5 align-items-center ">
@@ -41,12 +41,12 @@ function Navbar() {
                                 <img src={Login} alt="" height="35px" width="30px" />
                             </button>
                             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <LinkRouter to='/sign'>
-                                    <li><a className="dropdown-item" href="#">SingIn</a></li>
-                                </LinkRouter >
-                                <LinkRouter to='/signup'>
-                                    <li><a className="dropdown-item" href="#">SingUp</a></li>
-                                </LinkRouter>
+                               
+                                    <li><LinkRouter to='/sign' className="dropdown-item">SingIn</LinkRouter></li>
+                               
+                                
+                                    <li><LinkRouter to='/signup' className="dropdown-item">SingUp</LinkRouter></li>
+                                
                             </ul>
                         </div>
                     </div>
