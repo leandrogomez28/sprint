@@ -20,7 +20,11 @@ function Itinerary(props) {
                                     <img src={process.env.PUBLIC_URL + `/imgItinerarios/${item.img}`} className="w-100" />
                                 </div>
                                 <div class="card__body">
-                                    <span class="tag tag-blue">{item.city}</span>
+                                   <div className="d-flex justify-content-center">
+                                        <span class="tag tag-blue">{item.city}</span>
+                                        <span class="tag tag-blue">{item.price}</span>
+                                        <span class="tag tag-blue">{item.time}</span>
+                                   </div>
                                     <h4>{item.name}</h4>
                                     <p>{item.description}</p>
                                 </div>
