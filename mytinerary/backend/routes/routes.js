@@ -2,7 +2,7 @@ const Router= require("express").Router();
 const citiesController = require("../controllers/datosControllers")
 const {ObtenerDatos, ObtenerItinerary}= citiesController
 const usersControllers=require("../controllers/usersControllers")
-const {newUser}=usersControllers
+const {newUser,verifyEmail}=usersControllers
 const validator=require("../controllers/validator")
 
 
@@ -14,5 +14,8 @@ Router.route("/itinerary/:city")
 
 Router.route("/signup")
 .post(validator,newUser)
+
+Router.route("/verify/:uniqueText")
+.get(verifyEmail)
 
 module.exports = Router

@@ -32,7 +32,9 @@ function SignUp() {
                 console.log(data.response.error.details)
 				alert( data.response.error.details.map(error=>error.message))
                 
-            }
+            }else if(data.success==="trueUE"){
+				console.log(data)
+			}
         }
         
     }
