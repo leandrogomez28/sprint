@@ -14,14 +14,14 @@ function Cities() {
 
             <Search />
 
-           <div className="d-flex col ">
+           {/* <div className="d-flex col ">
                 <input className="checkbox" id="checkbox1" type="checkbox" />
                 <label htmlFor="checkbox1" className="checkbox-label">
                     <span className="on">Continents</span>
                     <span className="off">Cities</span>
                 </label>
                 
-           </div>
+           </div> */}
 
             <div className="most">
                 <h2>Most Visited</h2>

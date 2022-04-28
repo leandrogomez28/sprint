@@ -40,9 +40,9 @@
 
 
 
-*, *:before, *:after {
+/* *, *:before, *:after {
   transition: 0.25s ease-in-out;
-}
+} */
 .checkbox-label:before {
   content: "";
   display: block;

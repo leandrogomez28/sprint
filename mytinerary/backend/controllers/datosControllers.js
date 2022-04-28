@@ -1,3 +1,4 @@
+const { response } = require("express")
 const Cities = require("../models/cities.js")
 
 const Itinerary = require("../models/itinerary.js")
@@ -43,6 +44,37 @@ const citiesController = {
             success:error? false:true,
             error:error
         })
+
+        
+    },
+
+    likeDislike:async(req,res)=>{
+        const id=req.params.id;
+        const user=req.user.id
+        let itineraries
+        console.log(id)
+        console.log(user)
+        
+
+        try {
+            itineraries= await Itinerary.findOne({_id:id})
+            if(itineraries.likes.includes(user)){
+
+                Itinerary.findByIdAndUpdate({_id:id},{$pull:{likes:user}},{new:true})
+                .then(response=>res.json({success:true,response:response.likes}))
+                .catch(error=>console.log(error))
+            }
+            else{
+                Itinerary.findByIdAndUpdate({_id:id},{$push:{likes:user}},{new:true})
+                .then(response=>res.json({success:true,response:response.likes}))
+                .catch(error=>console.log(error))
+            }
+        } catch (err) {
+            error=err
+            res.json({success:false,resposne:error})
+            
+        }
+
 
         
     }

@@ -12,7 +12,7 @@ function City() {
     const{id}= useParams()
     const citySelected= cities.filter(item=>item._id === id)
 
-    console.log(itineraries)
+   
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -26,7 +26,7 @@ function City() {
     
       }, [])
 
-      console.log(itineraries)
+    
 
     return(
 

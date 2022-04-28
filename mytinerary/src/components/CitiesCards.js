@@ -28,22 +28,25 @@ function CitiesCards() {
             items: 1
         }
     };
+
+    const citiesMostPopular= cities.slice(0,9)
+    console.log(citiesMostPopular);
     
     return (
         <div className="d-flex col-12 justify-content-center " id="card">
 
             <Carousel responsive={responsive} draggable={true} className="d-flex col-10 align-items-center justify-content-space-around">
-            {cities.map((example) => {
+            {citiesMostPopular.map((example) => {
                             return (
 
-                                <div className="card " style={{ width: "18rem" }}>
+                                <div className="card " key={example._id} style={{ width: "18rem" }}>
                                     <img src={process.env.PUBLIC_URL +`/images/${example.img}`} key={example._id} className="w-100" />
                                     <div className="card-body  ">
                                         <h5 className="card-title">{example.name}</h5>
                                         <h6 className="card-title">{example.country}</h6>
                                         <p className="card-text">{example.description}</p>
 
-                                        <LinkRouter to='/cities/info' className="btn btn-dark bg-gradient ">See More</LinkRouter>
+                                        <LinkRouter to={`/city/${example._id}`}  className="btn btn-dark bg-gradient ">See More</LinkRouter>
 
                                     </div>
                                 </div>

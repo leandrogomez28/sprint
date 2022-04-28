@@ -83,8 +83,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1200px;
-    margin-block: 2rem;
     gap: 2rem;
   }
   
@@ -92,18 +90,19 @@
     max-width: 100%;
     display: block;
     object-fit: cover;
-    height: 150px;
+    height: 200px;
   }
   
   .card1 {
     display: flex;
     flex-direction: column;
-    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    width:80%;
     overflow: hidden;
-    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .1rem 1rem rgb(0, 0, 0);
     border-radius: 1em;
     background: #ECE9E6;
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  margin-top: 4em;
   
   }
   
@@ -150,25 +149,25 @@
   .card__body h4 {
     font-size: 1.5rem;
     text-transform: capitalize;
-    height: 90px;
     text-align: center;
     display: flex;
     align-items: center;
   }
   
   .card__body p{
-    height: 150px;
+
     overflow: auto;
   }
   .card__footer {
     display: flex;
-    padding: 1rem;
-    margin-top: auto;
+    
+    flex-direction: column;
   }
   
   .user {
     display: flex;
     gap: .5rem;
+    width: 100%;
   }
   .user img{
     height: 45px;
@@ -181,4 +180,39 @@
   
   .user__info > small {
     color: #666;
+  }
+
+  /*comentarios*/
+
+
+  .coments{
+    display:flex;
+    padding: 1em;
+  }
+
+  .icon-user{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user-info{
+    width: 85%;
+  }
+
+  .coment-user{
+    width: 90%;
+    height: 50px;
+    border: 0;
+    background: #dde4dd;
+    border-radius: 0.5em;
+    padding: 1em;
+  }
+
+  .botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1em;
   }

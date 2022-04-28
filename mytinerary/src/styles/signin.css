@@ -79,3 +79,29 @@ color: white;
 .links a{
 margin-left: 4px;
 }
+
+.facebook-button-class{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #4c69ba;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.facebook-button-class:hover{
+    color:white;
+    transition: .7s;
+    transform: scale(1.1);
+}
+
+.google-button-class{
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.google-button-class:hover{
+    transform: scale(1.1);
+    transition: .7s;
+
+}

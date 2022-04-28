@@ -8,7 +8,7 @@ import { Link as LinkRouter } from 'react-router-dom';
 
 function Cards() {
 
-    const [{cities},dispatch]=useStateValue()
+    const [{filterCity},dispatch]=useStateValue()
 
     return (
 
@@ -16,10 +16,10 @@ function Cards() {
             <div className="d-flex justify-content-center">
                 <div className="card-citie col-10 mt-4">
 
-                    {cities.map((example) => {
+                    {filterCity?.map((example) => {
                             return (
 
-                                <div className="card " style={{ width: "18rem"}}>
+                                <div className="card " key={example._id} style={{ width: "18rem"}}>
                                     <img src={process.env.PUBLIC_URL +`/images/${example.img}`} className="w-100" />
                                     <div className="card-body  ">
                                         <h5 className="card-title">{example.name}</h5>

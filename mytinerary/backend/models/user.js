@@ -8,9 +8,13 @@ const usersSchema= new mongoose.Schema({
     password:{type:String,require:true},
     uniqueText:{type:String,require:true},
     emailVerificado:{type:Boolean,require:true},
+    conected:{type:Boolean,require:true},
+    from:{type:String,require:true},
+    
+   
    
 })
 
-const User = mongoose.model("Users",usersSchema)
+const User = mongoose.model("users",usersSchema)
 
 module.exports= User;
