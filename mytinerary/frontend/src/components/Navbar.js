@@ -20,7 +20,7 @@ function Navbar() {
         const email = user.email
        
 
-        await axios.post("http://localhost:4000/api/signout", { email })
+        await axios.post("https://mytinerary-leandro.herokuapp.com/api/signout", { email })
             .then(response => {
                 console.log(response)
                 if (response.data.success) {

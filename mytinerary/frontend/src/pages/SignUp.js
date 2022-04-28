@@ -28,7 +28,7 @@ function SignUp() {
 
 
 
-		await axios.post("http://localhost:4000/api/signup", { newUser })
+		await axios.post("https://mytinerary-leandro.herokuapp.com/api/signup", { newUser })
 			.then(response => {
 				if (response.data.success === "falseVAL") {
 					let detailsError = response.data.response.error.details

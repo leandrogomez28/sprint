@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.719378de.css",
+    "main.js": "/static/js/main.528c5151.js",
+    "static/js/787.a34fb91a.chunk.js": "/static/js/787.a34fb91a.chunk.js",
+    "static/media/city3.jpg": "/static/media/city3.ad641caa476937bffce8.jpg",
+    "static/media/turismo2.png": "/static/media/turismo2.3d55f0cbb09b32befbf2.png",
+    "static/media/continentes3.png": "/static/media/continentes3.073966a1653a0f73aef7.png",
+    "static/media/citie.jpg": "/static/media/citie.5a38e553682faea5c12e.jpg",
+    "static/media/home.jpg": "/static/media/home.ec293411e3d8dd3a94f5.jpg",
+    "static/media/cities1.jpg": "/static/media/cities1.724a071a79722dbb918f.jpg",
+    "static/media/buenosaires.jpg": "/static/media/buenosaires.a0dfdd7d404089ca177c.jpg",
+    "static/media/city7.jpg": "/static/media/city7.f54f83a11912ab9dd632.jpg",
+    "static/media/city1.jpg": "/static/media/city1.b64853c20ccc1b460055.jpg",
+    "static/media/login2.png": "/static/media/login2.fd2174edf5e532191a3e.png",
+    "static/media/idioma.png": "/static/media/idioma.597dac3dcbc26942e14d.png",
+    "static/media/moneda.png": "/static/media/moneda.d23940f0fee1c94cfdaa.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.719378de.css.map": "/static/css/main.719378de.css.map",
+    "main.528c5151.js.map": "/static/js/main.528c5151.js.map",
+    "787.a34fb91a.chunk.js.map": "/static/js/787.a34fb91a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.719378de.css",
+    "static/js/main.528c5151.js"
+  ]
+}

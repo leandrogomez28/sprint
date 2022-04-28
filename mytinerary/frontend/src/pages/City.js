@@ -20,7 +20,7 @@ function City() {
         
         citySelected.map(city=> 
         
-          axios.get(`http://localhost:4000/api/itinerary/${city.name}`)
+          axios.get(`https://mytinerary-leandro.herokuapp.com/api/itinerary/${city.name}`)
           .then(response =>setItineraries(response.data.response.itineraries))
           )
     

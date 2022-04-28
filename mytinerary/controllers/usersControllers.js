@@ -26,7 +26,7 @@ async function sendEmail(email, uniqueText) {
         from: sender,
         to: email,
         subjet: "verificacion de email de usuario",
-        html: `presiona <a href="http://localhost:4000/api/verify/${uniqueText}"> aqui </a> para validar tu email`
+        html: `presiona <a href="https://mytinerary-leandro.herokuapp.com/api/verify/${uniqueText}"> aqui </a> para validar tu email`
     }
     await transporter.sendMail(mailOptions, function (error, response) {
         if (error) {
@@ -48,7 +48,7 @@ const usersControllers = {
         if (user) {
             user.emailVerificado = true
             await user.save()
-            res.redirect("http://localhost:3000/sign")
+            res.redirect("https://mytinerary-leandro.herokuapp.com/sign")
         }
         else {
             res.json({ success: false, response: "su email no se ha podido verificar" })
